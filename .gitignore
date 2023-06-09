@@ -1,0 +1,11 @@
+# dev editor configs
+/.idea/*
+/.vscode/*
+/nbproject/*
+.DS_Store
+.buildpath
+.project
+.settings
+
+# testing
+.phpunit.result.cache

@@ -1,0 +1,48 @@
+AllCops:
+  Exclude:
+    - 'bin/**/*'
+    - 'vendor/**/*'
+  TargetRubyVersion: 2.3
+
+Metrics/LineLength:
+  Enabled: false
+
+Metrics/ClassLength:
+  Enabled: false
+
+Metrics/BlockLength:
+  Enabled: false
+
+Metrics/MethodLength:
+  Enabled: false
+
+Metrics/AbcSize:
+  Enabled: false
+
+Metrics/PerceivedComplexity:
+  Enabled: false
+
+Metrics/CyclomaticComplexity:
+  Enabled: false
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Style/RedundantReturn:
+  Enabled: false
+
+Lint/ScriptPermission:
+  Enabled: false
+
+Naming/UncommunicativeMethodParamName:
+  Enabled: false
+
+Naming/VariableName:
+  Enabled: false
+
+Style/DateTime:
+  Enabled: false
+
+# Only disabled until the cyclomatic complexity method in measure.rb (ported from bonnie-bundler) is rewritten
+Lint/NestedMethodDefinition:
+  Enabled: false
